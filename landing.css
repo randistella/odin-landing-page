@@ -143,7 +143,24 @@ img.photo {
 .blue-box {
     background-color: #3882F6;
     margin: 50px 200px;
-    padding: 76px 500px;
+    padding: 65px 500px;
     display: flex;
-    align-items: center;
-    border-radius: 5px; }
+    border-radius: 5px; 
+    color: white;
+}
+.call-quote {
+    width: 400px;
+    line-height: 12px;
+}
+
+.button-box {
+    width: auto;
+    height: auto;
+}
+
+.button-two {
+    background-color: #3882F6;
+    color: white;
+    border: solid;
+    padding: 5px 35px; 
+    border-radius: 7px; }
