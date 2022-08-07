@@ -8,7 +8,9 @@
     color: #fff;
     background-color: #1f2937;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    padding: 30px;
 }
 
 .header {
@@ -18,10 +20,23 @@
     justify-content: space-between;
     align-items: center;
 }
-img {
-    width: 200px; 
+
+.left {
+    width: 450px;
     height: auto;
 }
+img.header {
+    width: 400px; 
+    height: 200px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 6px 30px; 
+    border-radius: 7px; }
+
 .menu-container {
     color: #fff;
     background-color: #1f2937;
@@ -39,8 +54,96 @@ img {
 .links {
     display: flex;
     justify-content: flex-end;
+    font-size: 15px;
+    color: #E5E7EB;
 }
 
 .login {
     margin-left: 20px;
 }
+
+.heromaintext {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.herosectext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.date {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.photo-grid-container {
+    align-items: center;
+    padding-bottom: 150px;
+  }
+  
+.photo-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+  }
+  
+.photo-grid-item {
+    width: 210px;
+    height: 210px;
+    margin: 5px 0px 0px 20px;
+  }
+  
+img.photo {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    border-radius: 15px;
+    overflow: hidden;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    width: 210px;
+    height: 210px;
+
+}
+.middle-container {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.quote-container {
+    display: flex;
+    padding: 50px ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #E5E7EB;
+
+
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 100px; }
+
+.call-container {
+    display: flex;
+    justify-content: center;
+}
+.blue-box {
+    background-color: #3882F6;
+    margin: 50px 200px;
+    padding: 76px 500px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px; }
