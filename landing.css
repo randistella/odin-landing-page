@@ -80,7 +80,7 @@ button {
 
 .photo-grid-container {
     align-items: center;
-    padding-bottom: 150px;
+    padding-bottom: 120px;
   }
   
 .photo-grid {
@@ -165,7 +165,7 @@ img.photo {
     padding: 5px 35px; 
     border-radius: 7px; }
 
-p {
+p.dogs {
     text-align: center;
     font-style: italic;
     font-size: smaller;
