@@ -27,7 +27,7 @@
 }
 img.header {
     width: 400px; 
-    height: 200px;
+    height: 267px;
 }
 
 button {
@@ -164,3 +164,9 @@ img.photo {
     border: solid;
     padding: 5px 35px; 
     border-radius: 7px; }
+
+p {
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+}
